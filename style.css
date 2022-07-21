@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap');
+
+
+.container{
+    width: 1200px;
+   
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    display: grid;
+    width: 1200px;
+    height:380px;
+    background-color: black;
+    border-radius: 23px;
+    grid-template-columns: auto auto auto auto;
+}
+.textarea{
+    text-align: left;
+    color: #fff;
+    width: 500px;
+    padding-left: 30px;
+
+    
+}
+.textarea h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+.textarea p {
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 8px;
+}
+.player{
+    width: 700px;
+}
+
+.player img{
+    width: 500px;
+    height: 380px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+.mainarea{
+    width: 1200px;
+
+}
+.detailspart{
+    width: 300px;
+    background: black;
+    height: 300px;
+    margin-top: 40px;
+    border-radius: 14px;
+    
+}
+.livesection{
+    width: 900px;
+    height: auto;
+
+}
+.livesetail{
+    width: 300px;
+    height: 220px;
+    border: 1px solid black;
+    
+}
+.main{
+    padding: 60px 0;
+}
+.sidebar{
+    background-color: #000;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 30px;
+}
+.btn-new{
+    background: #ffff;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 50px;
+    padding: 10px;
+    font-size: 17px;
+}
+.btn-danger{
+     width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 17px;
+}
+.mbox{
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.mbox img{
+
+width: 259px;
+
+margin-bottom: 10px;
+}
+
+.mbox span{
+    
+margin-left: 10px;
+    
+border: 1px solid #ccc;
+    
+padding: 2px;
+    
+/* margin-top: 20px; */
+    
+border-radius: 4px;
+}
+.mbox h3{
+    margin-left: 10px;
+    font-size: 19px;
+}
+.mbox p{
+    margin-left: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center; 
+}
+.footer{
+    width: 100%;
+    padding: 100px 0;
+    height: 400px;
+    background-color: black;
+}
+.footer h3 {
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    border-bottom: 1px solid #fff;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.footer ul{
+    margin-left: 280px;
+}
+.footer ul li{
+    
+list-style: none;
+}
+.footer ul li a{
+    float: left;
+    text-decoration: none;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+}
+.footer ul li a: hover{}
